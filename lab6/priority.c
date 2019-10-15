@@ -24,6 +24,7 @@ char p[n][3];
 for(int i=0;i<n;i++)
 {
 printf("\nEnter Priority, arrival time and burst time:");
+printf("\nEnter in the same order as given");
 scanf("%d %d %d", &pr[i], &at[i], &bt[i]);
 strcpy(p[i],"\n");
 p[i][0] = 'P';
